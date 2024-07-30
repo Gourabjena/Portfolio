@@ -64,6 +64,7 @@ header{
         display: block;
         cursor: pointer;
         font-size: 30px;
+        color: #fefefe;
     }
     /*.hamburger .line{
         width: 30px;
