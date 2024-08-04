@@ -205,6 +205,7 @@ button {
     background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
     border: none;
     font-weight: bold;
+    curser:pointer;
 }
 
 .button1 {
