@@ -1,9 +1,13 @@
+
+navBar =document.querySelector(".nav-bar");
+   navBar.onclick=function(){
+       navBar.classList.toggle("active");
+   }
 hamburger = document.querySelector(".hamburger");
 let check=true;
    hamburger.onclick =function(){
     
-    navBar =document.querySelector(".nav-bar");
-    navBar.classList.toggle("active");
+    
     
     if(check){
         document.getElementById("bar").className="fa-solid fa-xmark";
